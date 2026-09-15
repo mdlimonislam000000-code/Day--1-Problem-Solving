@@ -38,3 +38,18 @@ const fahrenheit = (celsius) =>{
     return (celsius * 9/5) + 32 ;
 }
 console.log('Problem - 4 : Celsius to Fahrenheit',fahrenheit(10))
+
+
+
+// Problem - 5 
+
+const checkSign = (n)=>{
+    if(n > 0 ){
+        return 'Positive';
+    }else if (n === 0 ) {
+        return 'Zero';
+    }else{
+        return 'negative'
+    }
+}
+console.log('Problem - 5 : ',checkSign(0))
