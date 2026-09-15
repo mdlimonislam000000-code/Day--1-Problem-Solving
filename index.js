@@ -31,3 +31,10 @@ const largest = (a , b , c) =>{
     }
 }
 console.log('Problem - 3 : Largest number is',largest(5,10,3))
+
+// Problem - 3
+
+const fahrenheit = (celsius) =>{
+    return (celsius * 9/5) + 32 ;
+}
+console.log('Problem - 4 : Celsius to Fahrenheit',fahrenheit(10))
